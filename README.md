@@ -1,1 +1,1 @@
-Automates reddit's lamentably dysfunctional conversation(chat) scrolling on desktop.
+A simple script automating reddit's lamentably dysfunctional conversation(chat) scrolling on desktop.
