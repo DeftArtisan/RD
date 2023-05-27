@@ -6,8 +6,8 @@ import time
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 _cred:map = {
-    "user" : "Uroboros6",
-    "pass" : "rexonA123"
+    "user" : "user"
+    "pass" : "pass"
 }
 
 def _trv_exc(driver):
