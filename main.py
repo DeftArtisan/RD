@@ -24,7 +24,6 @@ def _trv_n():
     driver.find_element(By.XPATH, "/html/body/div/main/div[1]/div/div[2]/form/fieldset[5]/button").submit()
     if WebDriverWait(driver, timeout = 3).until(driver.find_element(By.XPATH, "/html/body/div/div/div/div[2]/main/div[1]/div[2]/div[1]/div[1]/div")):
         driver.implicitly_wait(7)
-        time.sleep(6)
         while True:
            _trv_exc(driver)
            time.sleep(0.2) 
