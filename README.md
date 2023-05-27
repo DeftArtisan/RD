@@ -1,2 +1,1 @@
-# RD
-Automates reddit's lamentably dysfunctional conversation scrolling on desktop
+Automates reddit's lamentably dysfunctional conversation(chat) scrolling on desktop
