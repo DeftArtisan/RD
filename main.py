@@ -11,7 +11,8 @@ _cred:map = {
 }
 
 def _trv_exc(driver):
-   return driver.execute_script("document.getElementsByClassName('_3GDyz0bgwoWgoxYSYSxXyA _3SalNr9zKm9cow28G6Et8k')[0].scrollTo(0,0);document.getElementsByClassName('_3GDyz0bgwoWgoxYSYSxXyA _3SalNr9zKm9cow28G6Et8k')[0].dispatchEvent(new WheelEvent('wheel'))")
+   return driver.execute_script("document.getElementsByClassName('_3GDyz0bgwoWgoxYSYSxXyA _3SalNr9zKm9cow28G6Et8k')[0].scrollTo(0,0)\n"
+                                + "document.getElementsByClassName('_3GDyz0bgwoWgoxYSYSxXyA _3SalNr9zKm9cow28G6Et8k')[0].dispatchEvent(new WheelEvent('wheel'))")
 
 def _trv_n():
     _t_options = webdriver.ChromeOptions()
